@@ -242,6 +242,8 @@ hr{
 
     /* Media queries */
 
+/*For large to medium screen size from 1200px eide down*/
+
     @media screen and (max-width: 1200px) {
         #club-ethos{
             width: 65%;
@@ -261,8 +263,8 @@ hr{
 
         #center-about{
             clear: both;
-            float: left;
             width: 100%;
+            float: left;
             padding: 0;
         }
         hr{
@@ -272,7 +274,9 @@ hr{
     }
 
     /* For medium screen sizes from 950px wide and down */
+
     @media screen and (max-width: 950px){
+
         #menu{
             clear: left;
             float: left;
@@ -280,5 +284,24 @@ hr{
             margin-bottom: 20px;
             line-height: 25px;
         }
+
+        #cover-text{
+            left: 0;
+        }
+        #club-ethos{
+            width: 90%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+        .left-about-heading, .right-about-heading{
+            width: inherit;
+        }
+        .left-about-heading h2, .right-about-heading h2 {
+            width: 100%;
+            text-align: center;
+        }
+        .left-about-heading p, .right-about-heading p{
+            text-align: center;
+            padding: 0 20px;
+        }
     }
-    
